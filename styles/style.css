@@ -1,28 +1,87 @@
 html {
     background-color: #1F2937;
     font-family: 'Roboto', sans-serif;
+    margin: 0 150px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: #F9FAF8;
+}
+
+.header_logo {
+    font-weight: 800;
+}
+
+p.header_logo {
+    font-size: 24px; 
+    color: #F9FAF8;
+}
+
+nav ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro_text {
+    flex: 1 1 auto;
+    width: min-content;
+    align-content: space-between;
+}
+
+.intro_image-placeholder {
+    flex: 2 1 auto;
+    background-color: #6D747D;
+    height: 150px;
+    text-align: center;
+    /* Change this later*/
+    padding: 100px 0; 
 }
 
 h1 {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 800;
     color: #F9FAF8;
+}
+
+.intro_text p {
+    color: #F9FAF8;
+}
+
+.singup-button {
+    background-color: #3882F6;
+    border: none;
+    color: #F9FAF8;
+    padding: 8px 20px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.info {
+    display: flex;
+    background-color: #F9FAF8;
+    justify content: space-between;
 }
 
 h2 {
     font-size: 36px;
-    font-weight: extra-bold;
+    font-weight: 800;
     color: #1F2937;
 }
 
 p.intro {
     font-size: 18px;
     color: #E5E7EB;
-}
-
-p.header-logo {
-    font-size: 24px; 
-    color: #F9FAF8;
 }
 
 p.quote {
@@ -35,7 +94,10 @@ p.quote {
     background-color: #E5E7EB;
 }
 
-.signup-button, .banner {
+.banner {
     background-color: #3882F6;
 }
 
+.banner_button {
+    border: 1px solid white;
+}
