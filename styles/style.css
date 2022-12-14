@@ -1,13 +1,13 @@
 html {
     background-color: #1F2937;
     font-family: 'Roboto', sans-serif;
-    margin: 0 150px;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     color: #F9FAF8;
+    padding: 0 150px;
 }
 
 .header_logo {
@@ -31,6 +31,13 @@ ul li {
 .intro {
     display: flex;
     justify-content: space-between;
+    margin: 80px 0;
+    padding: 0 100px;
+}
+
+.intro_text p {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .intro_text {
@@ -54,10 +61,6 @@ h1 {
     color: #F9FAF8;
 }
 
-.intro_text p {
-    color: #F9FAF8;
-}
-
 .singup-button {
     background-color: #3882F6;
     border: none;
@@ -71,20 +74,49 @@ h1 {
     display: flex;
     background-color: #F9FAF8;
     justify content: space-between;
+    padding: 0 100px;
 }
 
 h2 {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+    margin: 40px auto;
+    text-align: center;
 }
 
-p.intro {
-    font-size: 18px;
-    color: #E5E7EB;
+.info {
+    display: flex;
+    flex-direction: column;
 }
 
-p.quote {
+.info_card-row {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin: 0 20% 40px;
+}
+
+.info_card {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin: 5px;
+}
+
+.info_card img {
+    width: 125px;
+    height: 125px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.info_card p {
+    text-align: center;
+}
+
+.quote p {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
@@ -92,12 +124,34 @@ p.quote {
 
 .quote {
     background-color: #E5E7EB;
+    padding: 50px 100px;
+}
+
+.quote_author p {
+    text-align: end;
 }
 
 .banner {
     background-color: #3882F6;
+    padding: 50px 100px;
+}
+
+.banner h3 {
+    color: #F9FAF8;
+}
+
+.banner p {
+    color: #F9FAF8;
 }
 
 .banner_button {
     border: 1px solid white;
+}
+
+footer {
+    text-align: center
+}
+
+footer p {
+    color: #F9FAF8;
 }
