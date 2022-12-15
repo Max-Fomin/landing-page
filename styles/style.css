@@ -3,20 +3,22 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+/* 1. Header */
 header {
     display: flex;
     justify-content: space-between;
     color: #F9FAF8;
-    padding: 0 150px;
+    padding: 0 200px;
 }
 
 .header_logo {
     font-weight: 800;
 }
 
-p.header_logo {
+.header_logo p {
     font-size: 24px; 
     color: #F9FAF8;
+    margin: 10px 0;
 }
 
 nav ul {
@@ -28,11 +30,13 @@ ul li {
     margin: 0 10px;
 }
 
+/* 2. Intro section */
+
 .intro {
     display: flex;
     justify-content: space-between;
     margin: 80px 0;
-    padding: 0 100px;
+    padding: 0 200px;
 }
 
 .intro_text p {
@@ -41,18 +45,17 @@ ul li {
 }
 
 .intro_text {
-    flex: 1 1 auto;
-    width: min-content;
+    width: 40%;
     align-content: space-between;
 }
 
 .intro_image-placeholder {
-    flex: 2 1 auto;
     background-color: #6D747D;
-    height: 150px;
+    color: #F9FAF8;
+    width: 40%;
     text-align: center;
     /* Change this later*/
-    padding: 100px 0; 
+    padding: 100px 0;
 }
 
 h1 {
@@ -70,11 +73,13 @@ h1 {
     border-radius: 5px;
 }
 
+/* 3. Info section */
+
 .info {
     display: flex;
     background-color: #F9FAF8;
-    justify content: space-between;
-    padding: 0 100px;
+    justify-content: space-between;
+    padding: 0 150px;
 }
 
 h2 {
@@ -105,8 +110,8 @@ h2 {
 }
 
 .info_card img {
-    width: 125px;
-    height: 125px;
+    width: 150px;
+    height: 150px;
     border: 2px solid #3882F6;
     border-radius: 10px;
     align-self: center;
@@ -116,37 +121,55 @@ h2 {
     text-align: center;
 }
 
+/* 4. Quote section */
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 50px 400px;
+}
+
 .quote p {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
 }
 
-.quote {
-    background-color: #E5E7EB;
-    padding: 50px 100px;
-}
-
 .quote_author p {
     text-align: end;
+    font-style: normal;
+    font-weight: 800;
 }
+
+/* 5. Banner section */
 
 .banner {
+    background-color: #F9FAF8;
+    padding: 75px 250px;
+}
+
+.banner_block {
     background-color: #3882F6;
-    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 120px;
+    border-radius: 10px;
 }
 
-.banner h3 {
+.banner_block-text h3, .banner_block-text p {
     color: #F9FAF8;
+    margin: 5px 0;
 }
 
-.banner p {
-    color: #F9FAF8;
+h3 {
+    font-size: 23px;
 }
 
-.banner_button {
+.banner_block-button {
+    align-self: center;
     border: 1px solid white;
 }
+
+/* 6. Footer */
 
 footer {
     text-align: center
